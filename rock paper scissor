@@ -1,0 +1,14 @@
+import random
+options=["rock", "paper", "scissors"]
+user=input("enter rock,paper or scissors:")
+python=random.choice(options)
+
+print(f"user choice:{user}")
+print(f"puthon choice:{python}")
+#condtions to decide winner
+if user==python:
+    print("It's a tie!")
+elif(user=="rock"and python==scissors) or(user=="paper"and python=="rock")or(user=="scissors"and python=="paper"):
+    print("You win!")
+else:
+    print("python win")       
