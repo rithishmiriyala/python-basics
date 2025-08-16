@@ -5,7 +5,7 @@
 #print(s.title())
 #print(s.swapcase())
 #print(s.strip())
-s="RITHISH"
+#s="RITHISH"
 #print(s)
 #print(s.replace("MIRIYALA","CHOWDARY"))
 #print(s.split())
@@ -22,3 +22,11 @@ s="RITHISH"
 #print(s.isalpha())
 #print(s.isidentifier())
 #print(s.__add__(" MIRIYALA"))
+
+#converting list into string
+fruits=["apple","banana","cherry"]
+print(" ".join(fruits))
+
+#converting string into list
+fruits='apple banana cherry'
+print(fruits.split(" "))
