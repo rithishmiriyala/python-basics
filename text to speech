@@ -1,0 +1,16 @@
+# This code initializes a text-to-speech engine using the pyttsx3 library
+import pyttsx3
+engine=pyttsx3.init()
+engine.say("hello, iam python")
+engine.runAndWait()
+engine.stop()
+
+# The code initializes the text-to-speech engine, by using text document.
+import pyttsx3
+engine=pyttsx3.init()
+with open("sample.txt","r",encoding="utf-8")as file:
+    text=file.read()
+engine.say(text)
+engine.say(text)
+engine.runAndWait()
+engine.stop()
